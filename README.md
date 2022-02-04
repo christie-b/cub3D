@@ -1,5 +1,7 @@
 # cub3D
 
+[![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/cboutier/cub3d)](https://github.com/JaeSeoKim/badge42)
+
 Validated on December 22nd, 2021
 
 121/100 with bonuses
