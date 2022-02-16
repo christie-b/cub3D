@@ -20,17 +20,17 @@ Bonuses implemented:
 **Map Error Checking**  
 The map must end with a .cub extension.  
 The map contains information about:  
-- the ceiling and floor color, represented by C and F respectively, followed by the wanted RGB colors.  
+- the ceiling and floor color, represented by `C` and `F` respectively, followed by the wanted RGB colors (between 0 and 255).  
 - 4 textures paths for each direction:  
-    - NO for the North walls,  
-    - SO for the South walls,  
-    - EA for the East walls,  
-    - WE for the West walls.  
+    - `NO` for the North walls,  
+    - `SO` for the South walls,  
+    - `EA` for the East walls,  
+    - `WE` for the West walls.  
 - a map:
-    - 1 represents walls,  
-    - 0 represents empty spaces,  
-    - N/S/W/E which represesents the player position, facing the given direction,  
-    - 2 represents animated sprites (only for the bonus).  
+    - `1` represents walls,  
+    - `0` represents empty spaces,  
+    - `N/S/W/E` which represesents the player position, facing the given direction,  
+    - `2` represents animated sprites (only for the bonus).  
 If the map is not valid, the program will tell you so.  
 
 **THE PROGRAM**  
