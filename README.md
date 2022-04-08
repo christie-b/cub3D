@@ -1,6 +1,6 @@
 # cub3D
 
-[![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/cboutier/cub3d)](https://github.com/JaeSeoKim/badge42)
+[![cboutier's 42 cub3d Score](https://badge42.vercel.app/api/v2/cl1f9y1k8000609jsc4a29jay/project/2431470)](https://github.com/JaeSeoKim/badge42)
 
 Validated on December 22nd, 2021
 
