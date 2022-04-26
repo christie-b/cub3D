@@ -2,6 +2,8 @@
 
 [![cboutier's 42 cub3d Score](https://badge42.vercel.app/api/v2/cl1f9y1k8000609jsc4a29jay/project/2431470)](https://github.com/JaeSeoKim/badge42)
 
+*Created with [opacaud](https://github.com/opacaud)*  
+
 Validated on December 22nd, 2021
 
 121/100 with bonuses
