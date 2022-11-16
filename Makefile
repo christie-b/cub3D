@@ -6,7 +6,7 @@
 #    By: cboutier <cboutier@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/06 09:08:45 by cboutier          #+#    #+#              #
-#    Updated: 2021/12/22 13:42:56 by cboutier         ###   ########.fr        #
+#    Updated: 2021/12/22 13:57:57 by cboutier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -63,12 +63,13 @@ RM			= rm -f
 all:		${NAME}
 bonus:		${BONUS}
 
-MLX_DIR		= ./mlx_linux
+MLX_DIR		= ./mlx
 MLX_FLAGS	= -lX11 -lXext -lm -lz
 
 -include ${DEP}
 
 ${NAME}:	${OBJS} ${HEADER}
+		make -C ${MLX_DIR}
 			${CC} ${CFLAGS} ${OBJS} ${INCLUDES} -L${MLX_DIR} -lmlx ${MLX_FLAGS} -o ${NAME}
 
 ${BONUS}:	${OBJS_BONUS} ${HEADER}

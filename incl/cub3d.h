@@ -6,7 +6,7 @@
 /*   By: cboutier <cboutier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/20 14:08:53 by cboutier          #+#    #+#             */
-/*   Updated: 2021/12/23 09:50:52 by cboutier         ###   ########.fr       */
+/*   Updated: 2021/12/22 13:55:06 by cboutier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ int				ft_check_whole_line_for_spaces_ones(char *line);
 
 /* CHECK */
 
-int				ft_check_cub(char *av, t_info *info);
+int				ft_check_cub(char *av);
 void			ft_check_perso(char map, t_info *info, int *perso);
 int				ft_check_empty_lines_original_map(char **map, int height);
 int				ft_check_map(char **map, t_info *info, int i);

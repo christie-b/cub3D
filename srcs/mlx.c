@@ -6,7 +6,7 @@
 /*   By: cboutier <cboutier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/08 11:00:25 by cboutier          #+#    #+#             */
-/*   Updated: 2022/01/03 08:52:54 by cboutier         ###   ########.fr       */
+/*   Updated: 2021/12/22 10:37:04 by cboutier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,16 +91,6 @@ void	ft_update_player_pos(t_total *total)
 
 int	ft_mlx(t_total *total)
 {
-	// TO ADD, SO THAT HEAP USAGE IS CONSTANT - NOT PRINTING IMAGES OVER PREVIOUS IMAGES CONSTANTLY
-	if (total->image->img)
-	{
-		mlx_destroy_image(total->window->mlx_ptr, total->image->img);
-		total->image->img = mlx_new_image(total->window->mlx_ptr, WIN_W, WIN_H);
-		total->image->img_ptr = mlx_get_data_addr(total->image->img,
-												  &total->image->bpp, &total->image->line_length,
-												  &total->image->endian);
-	}
-	//
 	ft_bzero(total->image->img_ptr, WIN_W * WIN_H * 4);
 	ft_update_player_pos(total);
 	ft_print_ceil_and_floor(total);

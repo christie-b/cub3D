@@ -6,13 +6,13 @@
 /*   By: cboutier <cboutier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 17:09:31 by opacaud           #+#    #+#             */
-/*   Updated: 2022/01/03 08:49:35 by cboutier         ###   ########.fr       */
+/*   Updated: 2021/12/22 11:10:16 by cboutier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../incl/cub3d.h"
 
-int	ft_check_cub(char *av, t_info *info)
+int	ft_check_cub(char *av)
 {
 	int	size;
 
@@ -20,7 +20,7 @@ int	ft_check_cub(char *av, t_info *info)
 	if ((size < 5) || (av[size - 1] != 'b') || (av[size - 2] != 'u')
 		|| (av[size - 3] != 'c') || (av[size - 4] != '.'))
 		return (ft_write_error("The map must have a .cub extension.\n",
-				1, info));// leak with invalid extension
+				0, NULL));
 	return (0);
 }
 
