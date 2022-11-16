@@ -47,3 +47,8 @@ If the map is not valid, the program will tell you so.
 **RUN THE BONUS VERSION**  
 `make bonus`  
 `./cub3D_bonus maps/map_bonus.cub`
+
+
+https://user-images.githubusercontent.com/63601807/202156197-49f05652-5ae3-4f99-bfb1-3e6ab388a43b.mp4
+
+
